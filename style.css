@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+  margin: 0px;
+  }
+
+/****************   Nav Section **********************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(189, 187, 187);
+  padding: 10px;
+  gap: 20px;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  justify-content: center;
+  background-color: rgb(99, 113, 124);
+  font-size: 20px;
+  padding: 10px;
+}
+
+/*********** Splash Page ************************/
+header {
+  background-color: rgb(212, 209, 209);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(58, 58, 59);
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header img {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.address {
+ font-style: italic;
+ font-size: 20px;
+}
+
+.tagline {
+  font-style: oblique;
+  font-size: 25px;
+  
+}
+
+/************* Sections ********************/
+hr {
+  border: none;
+  border-top: 10px solid #ccc;
+  margin: 16px 0;
+}
+
+section h3 {
+  color: rgb(32, 32, 32);
+  font-family: 'Poppins', sans-serif;
+  color: rgb(73, 73, 74);
+  font-size: 30px;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  font-size: 20px;
+}
+
+section ul {
+  font-size: 20px;
+}
+
+section a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+section a:hover {
+  text-decoration: underline;
+
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card img {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px black;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+    
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+   
+}
